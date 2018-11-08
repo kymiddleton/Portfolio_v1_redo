@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio: Kyla Middleton</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="boxmodel.html" />
+  <link rel="stylesheet" href="styles/Reset.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <!-- Four icons (github, email, stackoverflow, linkedin) -->
-  <nav>
-    <img src="github.png" alt="Github" />
-    <img src="overflow.png" alt="Overflow" />
-    <img src="email.png" alt="Email" />
-    <img src="linkedin.png" alt="Linkedin" />
-  </nav>
-  
-</br>
-<!--Your Name-->
-  <h1>Kyla Middleton</h1>
-<!--Short Title-->
-  <h2><strong>Full Stack Developer</strong></h2>
-<!--2 short bio paragraphs-->
-      <p> As a former HR leader with global experience I have a knack for solving problems with creative and pragmatic solutions. After a seven-year pregnancy pause my littlest human is heading off to full-time preschool making it the perfect time for me to ramp up and rejoin the working world.</p>
+  <section class="top">
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="https://github.com/kymiddleton" target="_blank">
+            <img src="./assets/github.png" alt="Github Profile">
+          </a>
+        </li>
+        <li>
+          <a href="https://stackoverflow.com/users/10150017/kymiddleton?tab=profile" target="_blank">
+            <img src="./assets/overflow.png" alt="Overflow Profile">
+          </a>
+        </li>
+        <li>
+          <a href="mailto: kyla@fmiddleton.com">
+            <img src="./assets/email.png" alt="Email">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/kylamiddleton/" target="_blank">
+            <img src="./assets/linkedin.png" alt="Linkedin Profile">
+          </a>
+        </li>
+      </ul>
+    </div>
 
-    </br>
+    <!--Your Name-->
+    <h1>Kyla Middleton</h1>
 
-      <p>I’m also making a career change by enrolling in a Coding Boot Camp at Georgia Tech which has an intense and immersive curriculum. At the end of the 24-week certification program I’ll be certified and proficient in front-end and back-end technologies and ready to put my new skills to work building complex projects.</p>
-    
-    </br>
-    
-    <section>
-      <div class="overlay"></div>
-    </section>  
-    
-    <!--View Portfolio text with arrow-->  
-    <section2>
-      <h2>View Portfolio</h2> 
-      <img src="arrow.png" alt="Arrow" class="arrow"/>
+    <!--Short Title-->
+    <h3>Full Stack Developer</h3>
 
-      <!--Profile Picture-->
-      <div class="frame-round">
-        <div class="crop">
-          <img src="Profile Pic.jpg" alt="Profile Picture" class="ProfilePic"/>
-        </div>
-      </div>
+    <!--2 short bio paragraphs-->
+    <p> As a former HR leader with global experience I have a knack for solving problems with creative and pragmatic
+      solutions. After a seven-year pregnancy pause my littlest human is heading off to full-time preschool making it
+      the perfect time for me to ramp up and rejoin the working world.
+    </p>
 
-      </br>
-      <!--3 Sample Portfolio Images-->
-    <img src="Portfolio_1.jpeg" alt="Sample1" style="width:250px;height:150px" />
-    <img src="Portfolio_2.jpeg" alt="Sample2" style="width:250px;height:150px" />
-    <img src="Portfolio_3.jpg" alt="Sample3" style="width:250px;height:150px" />
+    <p>I’m also making a career change by enrolling in a Coding Boot Camp at Georgia Tech which has an intense and
+      immersive curriculum. At the end of the 24-week certification program I’ll be certified and proficient in
+      front-end and back-end technologies and ready to put my new skills to work building complex projects.
+    </p>
+  </section>
 
-      <!--Footer with Copyright-->
+  <img src="./images/Profile Pic.jpg" alt="Profile Picture" class="ProfilePic" />
+
+  <section class="middle">
+    <h2>View Portfolio</h2>
+    <img src="./assets/arrow.png" alt="Arrow" class="arrow" />
+  </section>
+
+  <main>
+    <!--3 Sample Portfolio Images-->
+    <div class="box one">
+      <h4>Sample 1</h4>
+      <a href="" target="_blank" alt="">
+        <div class="image a"></div>
+    </div></a>
+
+    <div class="box two">
+      <h4>Sample 2</h4>
+      <a href="" target="_blank" alt="">
+        <div class="image b"></div>
+    </div></a>
+
+    <div class="box three">
+      <h4>Sample 3</h4>
+      <a href="" target="_blank" alt="">
+        <div class="image c"></div>
+    </div></a>
+  </main>
+
+  <!--Footer with Copyright-->
+  <section class="footer">
     <footer>© Kyla Middleton. All rights reserved.</footer>
-    </section2>
+  </section>
 </body>
+
 </html>
